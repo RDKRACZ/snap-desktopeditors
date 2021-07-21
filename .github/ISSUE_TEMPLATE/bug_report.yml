@@ -1,5 +1,5 @@
 name: "Bug report"
-description: "Use this template if you're running into issues with Windows, macOS, or Linux (native package) version."
+description: "Use this template if you're running into issues with the Snap version."
 labels: bug
 body:
   - type: checkboxes
@@ -7,23 +7,8 @@ body:
     attributes:
       label: "This issue is unique."
       options:
-      - label: "I have used the [search tool](https://github.com/ONLYOFFICE/DesktopEditors/issues?q=) and did not find an issue describing my bug."
+      - label: "I have used the [search tool](https://github.com/ONLYOFFICE/snap-desktopeditors/issues?q=) and did not find an issue describing my bug."
         required: true
-  - type: dropdown
-    id: os
-    attributes:
-      label: Operating System
-      description: "If you know this bug occurs on multiple operating systems, select all you have tested."
-      multiple: true
-      options:
-      - Windows XP / Vista
-      - Windows 10 / 8.1 / 7
-      - macOS 10.11 x86
-      - macOS 10.12 or higher
-      - Linux (DEB package)
-      - Linux (RPM package)
-    validations:
-      required: true
   - type: input
     id: version
     attributes:
