@@ -6,6 +6,6 @@ contact_links:
   - name: Flatpak package
     url: https://github.com/flathub/org.onlyoffice.desktopeditors/issues?q=
     about: Everything about the flatpak version goes here.
-  - name: Snap package
-    url: https://github.com/ONLYOFFICE/snap-desktopeditors/issues?q=
-    about: Everything about the snap version goes here.
+  - name: OS native packages
+    url: https://github.com/ONLYOFFICE/DesktopEditors/issues?q=
+    about: Everything about the Windows, macOS, and DEB / RMP Linux version goes here.
